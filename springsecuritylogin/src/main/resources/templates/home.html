@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<title>Home</title>
+
+<style>
+
+body{
+
+font-family:Arial;
+text-align:center;
+margin-top:100px;
+
+}
+
+a{
+
+background:red;
+padding:10px;
+color:white;
+text-decoration:none;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Welcome to Spring Security</h1>
+
+<h2>You are Logged In Successfully</h2>
+
+<a th:href="@{/logout}">Logout</a>
+
+</body>
+
+</html>
